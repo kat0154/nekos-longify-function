@@ -1,0 +1,23 @@
+{
+  "name": "nekos-longify-function",
+  "version": "1.0.0",
+  "description": "an addon for nodeJS users to help \"longify\" dates (show full dates)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekoboyTM/nekos-longify-function.git"
+  },
+  "keywords": [
+    "longify",
+    "discord"
+  ],
+  "author": "NekoboyTM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NekoboyTM/nekos-longify-function/issues"
+  },
+  "homepage": "https://github.com/NekoboyTM/nekos-longify-function#readme"
+}
