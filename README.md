@@ -1,6 +1,8 @@
 ![nekos-longify-function-version](https://img.shields.io/npm/v/nekos-longify-function.png)
 ![nekos-longify-function-downloads](https://img.shields.io/npm/dt/nekos-longify-function.png?maxAge=3600)
 ![nekos-longify-function-license](https://img.shields.io/badge/license-ISC-blue.png)
+[![nekos-longify-function-git](https://img.shields.io/badge/github-_nekos--longify--function-neongreen.png?logo=github)](https://github.com/NekoboyTM/nekos-longify-function)
+![nekos-longify-function-build](https://img.shields.io/badge/build-passing---.png)
 
 ![nekos-longify-function](https://nodei.co/npm/nekos-longify-function.png)
 
