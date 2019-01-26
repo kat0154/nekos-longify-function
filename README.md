@@ -1,10 +1,10 @@
-![nekos-longify-function-version](https://img.shields.io/npm/v/nekos-longify-function.png)
-![nekos-longify-function-downloads](https://img.shields.io/npm/dt/nekos-longify-function.png?maxAge=3600)
-![nekos-longify-function-license](https://img.shields.io/badge/license-ISC-blue.png)
+[![nekos-longify-function-version](https://img.shields.io/npm/v/nekos-longify-function.png)](https://www.npmjs.com/package/nekos-longify-function)
+[![nekos-longify-function-downloads](https://img.shields.io/npm/dt/nekos-longify-function.png?maxAge=3600)](https://www.npmjs.com/package/nekos-longify-function)
+[![nekos-longify-function-license](https://img.shields.io/badge/license-ISC-blue.png)](https://www.npmjs.com/package/nekos-longify-function)
 [![nekos-longify-function-git](https://img.shields.io/badge/github-_nekos--longify--function-neongreen.png?logo=github)](https://github.com/NekoboyTM/nekos-longify-function)
-![nekos-longify-function-build](https://img.shields.io/badge/build-passing---.png)
+[![nekos-longify-function-build](https://img.shields.io/badge/build-passing---.png)]
 
-![nekos-longify-function](https://nodei.co/npm/nekos-longify-function.png)
+[![nekos-longify-function](https://nodei.co/npm/nekos-longify-function.png)](https://www.npmjs.com/package/nekos-longify-function)
 
 
 
@@ -14,7 +14,7 @@ an addon for nodeJS users to help "longify" dates (show full dates)
 
 to report issues and get help, join the official [discord server](https://discord.gg/UFkTFbe)
 
-### Useage[1] (general useage):
+### Useage-1 (general useage):
 ```javascript
 let longify = require('nekos-longify-function');
 //get the function
@@ -27,7 +27,7 @@ let t = longify(now);//options are optional
 console.log(t);
 //logs "Tuesday, January 15th, 2019 - 3:14:34 AM"
 ```
-### Useage[2] (general useage):
+### Useage-2 (general useage):
 ```javascript
 let longify = require('nekos-longify-function');
 //get the function
@@ -48,50 +48,8 @@ let t = longify(now, {
 console.log(t);
 //logs "Dienstag, Januar 15te, 2019 - 09:14:34"
 ```
-### Useage[1] (general bot useage):
-```javascript
-let longify = require('nekos-longify-function');
-//get the function
-
-let now = new Date();
-//it uses Dates, so "Date.now()" won't work
-
-let t = longify(now, {
-    botify: true
-});
-let i = t.split(' ');
-
-console.log(`${i[0]} | ${i[1]} | ${i[2]} | ${i[3]} | ${i[4]} | ${i[5]}`);
-   //format:   day   |  month  |daynumber|   year  |   time  |  AM/PM
-  //
- //  "Tuesday | January |   15th  |   2019  | 3:14:34 | AM"
-```
-
-### Useage[1] (bot useage with more options):
-```javascript
-let longify = require('nekos-longify-function');
-//get the function
-
-let now = new Date();
-//it uses Dates, so "Date.now()" won't work
-
-let t = longify(now, {
-    timeZone: 1, //default is -5
-    language: 'german', //default is english
-    military: false, //default
-    notime: false, //default
-    botify: true //default is false
-});
-let i = t.split(' ');
-
-console.log(`${i[0]} | ${i[1]} | ${i[2]} | ${i[3]} | ${i[4]} | ${i[5]}`);
-   //format:   day   |  month  |daynumber|   year  |   time  |  AM/PM
-  //
- //        "Dienstag |  Januar |   15te  |   2019  | 09:14:34|   AM"
-//
-//note: AM/PM will show as 'undefined' if military is true
-//note: time & AM/PM will show as 'undefined' if notime is true
-```
+### Useages (bots):
+For bot useages visit [here](https://github.com/NekoboyTM/nekos-longify-function/tree/master/examples)
 
 ### TimeZones:
 ```javascript
