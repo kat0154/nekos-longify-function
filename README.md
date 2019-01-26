@@ -3,8 +3,10 @@
 [![nekos-longify-function-license](https://img.shields.io/badge/license-ISC-blue.png)](https://www.npmjs.com/package/nekos-longify-function)
 [![nekos-longify-function-git](https://img.shields.io/badge/github-_nekos--longify--function-neongreen.png?logo=github)](https://github.com/NekoboyTM/nekos-longify-function)
 ![nekos-longify-function-build](https://img.shields.io/badge/build-passing---.png)
+[![nekos-longify-function-server](https://img.shields.io/badge/Discord_server-_nekos--packets-blue.png?logo=discord)](https://discord.gg/UFkTFbe)
 
 [![nekos-longify-function](https://nodei.co/npm/nekos-longify-function.png)](https://www.npmjs.com/package/nekos-longify-function)
+
 
 
 
