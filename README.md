@@ -88,7 +88,7 @@ languages: {
     "fr-FR":"French",
     "es-US":"Spanish",
     "en-US":"English" //default
-	"nl-NL":"Dutch" //added by Tjird#6304 from Discord
+    "nl-NL":"Dutch" //added by Tjird#6304 from Discord
 }
 //the language option ISN'T Case-sensitive
 ```
