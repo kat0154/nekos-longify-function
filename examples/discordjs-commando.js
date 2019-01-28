@@ -30,7 +30,7 @@ class BotinfoCommand extends commando.Command
 				//
 				//note: AM/PM will show as 'undefined' if military is true
 				//note: time & AM/PM will show as 'undefined' if notime is true
-    }
+    } 
 }
 module.exports = BotinfoCommand;
 
