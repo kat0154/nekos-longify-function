@@ -71,9 +71,9 @@ if(options.timeZone > 12 || options.timeZone < -11){
 options.timeZone = map.get(options.timeZone);
 }
 
-const languages = ["fr-fr", "french", "es-us", "spanish", "en-us", "english", "de-de", "german"];
+const languages = ["fr-fr", "french", "es-us", "spanish", "en-us", "english", "de-de", "german", "nl-nl", "dutch"];
 if(!languages.some(word => options.language.toLowerCase().includes(word))){
-    throw new Error('Unknown language\ncurrent languages:\nfr-fr (french), es-us (spanish), en-us (english) & de-de (german)\n\n');
+    throw new Error('Unknown language\ncurrent languages:\nfr-fr (french), es-us (spanish), en-us (english), de-de (german) & nl-nl (dutch)\n\n');
 }
 if(options.language.toLowerCase() === "fr-fr"||options.language.toLowerCase() === "french"){
     options.language = "fr-FR"
@@ -86,6 +86,9 @@ if(options.language.toLowerCase() === "en-us"||options.language.toLowerCase() ==
 }
 if(options.language.toLowerCase() === "de-de"||options.language.toLowerCase() === "german"){
     options.language = "de-DE"
+}
+if(options.language.toLowerCase() === "nl-nl"||options.language.toLowerCase() === "dutch"){
+    options.language = "nl-NL"
 }
 
 let api = require(`./languages/${options.language}.js`);
