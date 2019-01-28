@@ -9,8 +9,6 @@
 
 
 
-
-
 # nekos-longify-function
 
 an addon for nodeJS users to help "longify" dates (show full dates)
@@ -89,7 +87,8 @@ languages: {
     "de-DE":"German",
     "fr-FR":"French",
     "es-US":"Spanish",
-    "en-US":"english" //default
+    "en-US":"English" //default
+	"nl-NL":"Dutch" //added by Tjird#6304 from Discord
 }
 //the language option ISN'T Case-sensitive
 ```
