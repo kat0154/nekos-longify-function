@@ -1,6 +1,6 @@
 {
   "name": "nekos-longify-function",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "an addon for nodeJS users to help \"longify\" dates (show full dates)",
   "main": "index.js",
   "scripts": {
